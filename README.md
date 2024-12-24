@@ -69,27 +69,25 @@ This project enables a robotic arm to play chess with a human opponent. It uses 
 
 ## Customization
 
-1. Chessboard Dimensions: Update the square_coordinates dictionary in the script to match your chessboard's layout.
+1. **Chessboard Dimensions**: Update the square_coordinates dictionary in the script to match your chessboard's layout.
 
-2. Arm Movement Speed: Modify the speed parameter in the move_to_square function to control the arm's movement speed.
+2. **Arm Movement Speed**: Modify the speed parameter in the move_to_square function to control the arm's movement speed.
 
-3. Verbose Mode: Enable verbose logging by setting the debug flag in the script for detailed runtime logs.
-
-4. Playing Difficulty: Adjust the depth of Stockfish analysis in game_update.py by modifying the depth parameter.
+3. **Playing Difficulty**: Adjust the depth of Stockfish analysis in game_update.py by modifying the depth parameter.
 
 
 ## Troubleshooting:
 
-1. Arm Fails to Move to Correct Position:
+1. **Arm Fails to Move to Correct Position**:
     Recheck the calibration of square_coordinates.
     Ensure the robotic arm's range covers all chessboard squares.
-2. Serial Communication Issues:
+2. **Serial Communication Issues**:
     Verify the Arduino is properly connected and the correct COM port is specified.
     Restart the script if the connection drops.
-3. Invalid Moves:
+3. **Invalid Moves**:
     Ensure moves are entered in valid UCI format.
     Check the game state for legal moves.
-4. Chessboard Misalignment:
+4. **Chessboard Misalignment**:
     Confirm the physical chessboard matches the square_coordinates mapping.
 
 
@@ -100,13 +98,13 @@ This project enables a robotic arm to play chess with a human opponent. It uses 
 
 
 ## Contributing:
-We welcome contributions to enhance the project! Here's how you can contribute:
+**We welcome contributions to enhance the project! Here's how you can contribute**:
 
-Fork the repository.
-Create a feature branch: git checkout -b feature-name.
-Commit your changes: git commit -m "Add a new feature".
-Push to the branch: git push origin feature-name.
-Open a pull request.
+1. Fork the repository.
+2. Create a feature branch: git checkout -b feature-name.
+3. Commit your changes: git commit -m "Add a new feature".
+4. Push to the branch: git push origin feature-name.
+5. Open a pull request.
 
 
 
