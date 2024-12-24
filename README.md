@@ -108,3 +108,4 @@ This project enables a robotic arm to play chess with a human opponent. It uses 
 
 
 
+Made by Razan, Sakinah, Chetan & Prasanth - University of Houston 
